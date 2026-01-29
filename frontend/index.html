@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 4 dApp</title>
+</head>
+<body>
+  <h2>Assignment 4 dApp</h2>
+
+  <button id="connect">Connect MetaMask</button>
+  <p>Wallet: <span id="wallet">-</span></p>
+
+  <h3>ERC-20</h3>
+  <p>Balance: <span id="balance">-</span></p>
+
+  <input id="to" placeholder="Recipient address" size="45">
+  <input id="amount" placeholder="Amount">
+  <button id="send">Send</button>
+
+  <h3>ERC-721</h3>
+  <input id="tokenId" placeholder="Token ID">
+  <button id="check">Check NFT</button>
+  <p>Owner: <span id="owner">-</span></p>
+  <p>URI: <span id="uri">-</span></p>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
